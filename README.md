@@ -1,4 +1,4 @@
-# hw3 徐天强 516030910391
+# hw3 
 ## Program structure
 - Spring boot
 - Spring security
