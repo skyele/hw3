@@ -38,24 +38,6 @@
         });
     });
     function ajax_manually_submit(){
-        /*var xmlhttp;
-        if(window.XMLHttpRequest){
-            xmlhttp = new XMLHttpRequest();
-        }
-        else{
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        var firstget = document.getElementById("firstword").value;
-        var secondget = document.getElementById("secondword").value;
-        var sendstring = "firstword="+firstget+"&"+"secondword="+secondget;
-        xmlhttp.open("POST","/wordladder",true);
-        xmlhttp.send(sendstring);
-        xmlhttp.onreadystatechange=function () {
-            if (xmlhttp.readyState==4 && xmlhttp.status==200){
-                var result = xmlhttp.responseText;
-                document.getElementById("feedback").innerHTML=result;
-            }
-        }*/
       var wordladderSearch = {};
         wordladderSearch["firstword"] = $('#firstword').val();
         wordladderSearch["secondword"] = $('#secondword').val();
